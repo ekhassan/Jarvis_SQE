@@ -1,14 +1,13 @@
-package jarvis;
-import java.awt.Color;
+package JarvisX;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class MgrDashboard extends JFrame  implements ActionListener {
 
-    DataBase db = new DataBase();
     JButton bgl;
     JButton bgl1;
     JButton bgl2;
@@ -60,8 +59,7 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         h1.setBounds(210,40,550,300);
         h1.setForeground(new Color(0xffffff));
 
-        db.showProjects();
-        pro = new JComboBox(db.dbprojects);
+        pro = new JComboBox();
         pro.addActionListener(this);
         pro.setBounds(210,250,200,40);
         pro.setBackground(new Color(0xc2f2fc));
@@ -104,8 +102,8 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         bgl2.setRolloverEnabled(false);
         bgl2.setVisible(true);
 
-        db.showEmps();
-        emp = new JComboBox(db.dbemps);
+
+        emp = new JComboBox();
         emp.addActionListener(this);
         emp.setBounds(210,450,200,40);
         emp.setBackground(new Color(0xc2f2fc));
@@ -197,10 +195,6 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         if (a.getSource()==del){
 
             this.dispose();
-            DataBase db = new DataBase();
-            String l;
-            l=String.valueOf(emp.getSelectedItem());
-            db.delDBEmp(l);
             box b = new box();
             b.EmpDeleted();
 

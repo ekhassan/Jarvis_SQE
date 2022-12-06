@@ -1,11 +1,11 @@
-package jarvis;
+package JarvisX;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AddNCl  extends JFrame implements ActionListener {
+public class AddNCl extends JFrame implements ActionListener {
     JLabel head;
     JButton bgl;
     JButton back;
@@ -127,14 +127,11 @@ public class AddNCl  extends JFrame implements ActionListener {
         //MANAGER
         if (a.getSource() == addemp) {
             this.dispose();
-            DataBase db = new DataBase();
-            db.addDBCl(username1.getText(), password1.getText(), name1.getText());
             box b = new box();
             b.Added("Added Client Successfuly.");
         } else if (a.getSource() == back) {
             this.dispose();
             MgrDashboard md = new MgrDashboard();
-
 
         }
 

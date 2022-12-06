@@ -1,4 +1,4 @@
-package jarvis;
+package JarvisX;
 
 public class Project {
     static String proname[] = new String[10];

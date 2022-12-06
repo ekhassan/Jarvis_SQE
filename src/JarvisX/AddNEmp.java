@@ -1,12 +1,10 @@
 
-package jarvis;
-
-import java.awt.Color;
-import java.awt.Dimension;
+package JarvisX;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class AddNEmp extends JFrame implements ActionListener {
@@ -138,8 +136,6 @@ public class AddNEmp extends JFrame implements ActionListener {
         //MANAGER
         if (a.getSource()==addemp){
             this.dispose();
-            DataBase db = new DataBase();
-            db.addDBEmp(username1.getText(), password1.getText(), name1.getText());
             box b = new box();
             b.Added("Added Employee Successfuly.");
         }

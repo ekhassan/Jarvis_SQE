@@ -1,10 +1,9 @@
-package jarvis;
+package JarvisX;
 
-import java.awt.Color;
-import java.awt.Dimension;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 
@@ -246,8 +245,6 @@ public class AddNPro extends JFrame implements ActionListener {
         //MANAGER
         if (a.getSource()==addPro){
             this.dispose();
-            DataBase db = new DataBase();
-            db.addDBPro(id1.getText(), name1.getText(),source1.getText(),from1.getText(),to1.getText());
             box b = new box();
             b.ProAdded();
 

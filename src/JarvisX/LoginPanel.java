@@ -1,8 +1,9 @@
-package jarvis;
+package JarvisX;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class LoginPanel extends JFrame implements ActionListener{
@@ -292,23 +293,11 @@ public class LoginPanel extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent a) {
 
         if (a.getSource() == mlogin) {
-            Login l = new Login();
 
-            if (l.mgrLogin(uname.getText(), String.valueOf(pass.getPassword())) == true) {
+
+
                 this.dispose();
                 MgrDashboard md = new MgrDashboard();
-            }
-            else if (n1<=1){
-                this.dispose();
-                box b = new box();
-                b.WrongCredentialsMgr();
-                n1=n1+1;
-
-            }
-            else{
-                box b = new box();
-                b.ExitBox();
-            }
 
         }
 
@@ -316,54 +305,16 @@ public class LoginPanel extends JFrame implements ActionListener{
 
         if (a.getSource()==elogin){
 
-            Login l = new Login();
-
-            if ( l.empLogin(uname.getText(), String.valueOf(pass.getText()))== true) {
-                DataBase db = new DataBase();
-                db.showEmpPro(uname.getText());
                 this.dispose();
                 EmpDashboard ed = new EmpDashboard();
-            }
-
-            else if (n1<=1){
-                this.dispose();
-                box b = new box();
-                b.WrongCredentialsEmp();
-                n1=n1+1;
-
-            }
-            else{
-                box b = new box();
-                b.ExitBox();
-            }
 
 
         }
         if (a.getSource()==clogin){
 
-            Login l = new Login();
-
-            if (l.clLogin(uname.getText(), String.valueOf(pass.getPassword())) == true) {
-
-                DataBase db = new DataBase();
-                db.showClPro(uname.getText());
                 this.dispose();
                 ClDashboard cl = new ClDashboard();
 
-
-            }
-
-            else if (n1<=1){
-                this.dispose();
-                box b = new box();
-                b.WrongCredentialsCL();
-                n1=n1+1;
-
-            }
-            else{
-                box b = new box();
-                b.ExitBox();
-            }
 
 
         }

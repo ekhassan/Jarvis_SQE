@@ -1,9 +1,9 @@
-package jarvis;
+package JarvisX;
 
-import java.awt.Color;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class EmpDashboard extends JFrame implements ActionListener {
@@ -12,7 +12,6 @@ public class EmpDashboard extends JFrame implements ActionListener {
     JLabel h1;
     JButton bgl1;
     JComboBox pro;
-    DataBase db = new DataBase();
     JButton det;
     JButton logout;
     JLabel h2;
@@ -53,7 +52,7 @@ public class EmpDashboard extends JFrame implements ActionListener {
         h1.setForeground(new Color(0xffffff));
 
 
-        pro = new JComboBox(db.dbemppros);
+        pro = new JComboBox();
         pro.addActionListener(this);
         pro.setBounds(210, 250, 200, 40);
         pro.setBackground(new Color(0xc2f2fc));
