@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1559443-32db-4b19-a82b-a523ed651489" name="Changes" comment="">
+    <list default="true" id="b1559443-32db-4b19-a82b-a523ed651489" name="Changes" comment="pull">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/ClDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/ClDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/ClProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/ClProjectDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/EmpDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/EmpDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/EmpProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/EmpProjectDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/LoginPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/MgrDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/MgrDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/ProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/ProjectDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/WelcSc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/WelcSc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/JAVA/Jarvis_SQE/src/JarvisX"
+    "last_opened_file_path": "E:/UNI/4th Semester/OOSE/TMS"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670357778428</updated>
     </task>
+    <task id="LOCAL-00001" summary="pull">
+      <created>1670359752805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670359752805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,10 +89,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <MESSAGE value="pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="pull" />
   </component>
 </project>
