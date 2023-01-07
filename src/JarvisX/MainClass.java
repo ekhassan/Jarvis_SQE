@@ -7,7 +7,7 @@ public class MainClass {
 	
     public static void main(String[] args) {
 
-        WelcSc ws = new WelcSc();
-
+//        WelcSc ws = new WelcSc();
+    new register();
     }
 }
