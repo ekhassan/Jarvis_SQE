@@ -136,6 +136,8 @@ public class AddNEmp extends JFrame implements ActionListener {
         //MANAGER
         if (a.getSource()==addemp){
             this.dispose();
+            DataBase db = new DataBase();
+            db.addDBEmp(username1.getText(), password1.getText(), name1.getText());
             box b = new box();
             b.Added("Added Employee Successfuly.");
         }

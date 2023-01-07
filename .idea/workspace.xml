@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1559443-32db-4b19-a82b-a523ed651489" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="14565d716fb5ae4bbdc93706a724f6de588aa27c" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672607484956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push">
+      <created>1673058743082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673058743082</updated>
+    </task>
+    <task id="LOCAL-00005" summary="push">
+      <created>1673058868109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673058868109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

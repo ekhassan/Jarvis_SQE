@@ -283,6 +283,10 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         if (a.getSource()==assto){
             this.dispose();
             ClDashboard cd = new ClDashboard();
+            DataBase db = new DataBase();
+            db.rate(name1.getText(), rate1.getText());
+            db.rev(name1.getText(), rev1.getText());
+            db.status(name1.getText());
         }
         else if (a.getSource()==back){
             this.dispose();
