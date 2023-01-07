@@ -404,7 +404,8 @@ public class box extends JFrame implements ActionListener{
 
         }
         else if (a.getSource()==ok3){
-
+            DataBase db=new DataBase();
+            db.AssignTo(r1.getText(), asto.getText());
             this.dispose();
             MgrDashboard md = new MgrDashboard();
             String a1;
@@ -413,6 +414,8 @@ public class box extends JFrame implements ActionListener{
 
         }
         else if (a.getSource()==ok8){
+            DataBase db=new DataBase();
+            db.SetStatus(r2.getText(), asto1.getText());
             this.dispose();
             EmpDashboard ed = new EmpDashboard();
             String a1;
