@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 
 public class MgrDashboard extends JFrame  implements ActionListener {
 
+    DataBase db = new DataBase();
     JButton bgl;
     JButton bgl1;
     JButton bgl2;
@@ -59,7 +60,8 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         h1.setBounds(210,40,550,300);
         h1.setForeground(new Color(0xffffff));
 
-        pro = new JComboBox();
+        db.showProjects();
+        pro = new JComboBox(db.dbprojects);
         pro.addActionListener(this);
         pro.setBounds(210,250,200,40);
         pro.setBackground(new Color(0xc2f2fc));
@@ -103,7 +105,8 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         bgl2.setVisible(true);
 
 
-        emp = new JComboBox();
+        db.showEmps();
+        emp = new JComboBox(db.dbemps);
         emp.addActionListener(this);
         emp.setBounds(210,450,200,40);
         emp.setBackground(new Color(0xc2f2fc));
