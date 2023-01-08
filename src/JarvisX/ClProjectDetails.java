@@ -30,11 +30,13 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
     JTextField rrrrr;
     JButton assto;
     JButton back;
-    ClProjectDetails(){
+
+    ClProjectDetails() {
 
     }
-    ClProjectDetails(String proname){
-        String r=proname;
+
+    ClProjectDetails(String proname) {
+        String r = proname;
 
 
         rrrrr = new JTextField();
@@ -53,28 +55,28 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         head = new JLabel();
         head.setText(proname);
         head.setFont(new Font("Helvetica", Font.BOLD, 30));
-        head.setBounds(100,-105,500,300);
+        head.setBounds(100, -105, 500, 300);
         head.setForeground(new Color(0xffffff));
 
         bgl = new JButton();
-        bgl.setFont(new Font("Sans Serif", Font.BOLD,10));
+        bgl.setFont(new Font("Sans Serif", Font.BOLD, 10));
         bgl.setBackground(new Color(0xff0033));
-        bgl.setBounds(100,80,100,3);
+        bgl.setBounds(100, 80, 100, 3);
         bgl.setForeground(new Color(0xff0033));
         bgl.setBorder(null);
         bgl.setRolloverEnabled(false);
         bgl.setVisible(true);
 
-        DataBase db=new DataBase();
+        DataBase db = new DataBase();
         db.showproDetails(proname);
-        String a=db.a;
-        String b=db.b;
-        String c=db.c;
-        String d=db.d;
-        String e=db.e;
-        String f=db.f;
-        String g=db.g;
-        String h=db.h;
+        String a = db.a;
+        String b = db.b;
+        String c = db.c;
+        String d = db.d;
+        String e = db.e;
+        String f = db.f;
+        String g = db.g;
+        String h = db.h;
 
 //DETAILS
         id = new JLabel();
@@ -82,7 +84,6 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         id.setFont(new Font("Helvetica", Font.PLAIN, 15));
         id.setBounds(100, 22, 500, 300);
         id.setForeground(new Color(0xFFFFFF));
-
 
 
         id1 = new JTextField();
@@ -160,11 +161,10 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         rate1.setForeground(new Color(0xFFFFFF));
         rate1.setPreferredSize(new Dimension(290, 25));
         rate1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        if(status1.getText().equalsIgnoreCase("Completed")){
+        if (status1.getText().equalsIgnoreCase("Completed")) {
 
             rate1.setEditable(true);
-        }
-        else{
+        } else {
 
             rate1.setText(h);
             rate1.setEditable(false);
@@ -220,26 +220,22 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         rev1.setPreferredSize(new Dimension(290, 25));
         rev1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
 
-        if(status1.getText().equalsIgnoreCase("Completed")){
+        if (status1.getText().equalsIgnoreCase("Completed")) {
             rev1.setEditable(true);
-        }
-        else{
+        } else {
 
             rev1.setText(g);
             rev1.setEditable(false);
         }
-
         rev1.setHorizontalAlignment(SwingConstants.CENTER);
 
         assto = new JButton();
         assto.setFocusable(false);
-        if(status1.getText().equalsIgnoreCase("Completed")){
+        if (status1.getText().equalsIgnoreCase("Completed")) {
             assto.setText("Send Feedback");
-        }
-        else{
+        } else {
             assto.setText("Exit");
         }
-
 
         assto.setFont(new Font("Sans Serif", Font.BOLD, 15));
         assto.setBackground(new Color(0x4F64FB));
@@ -290,18 +286,18 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         this.setLocationRelativeTo(null);
 
     }
+
     @Override
-    public void actionPerformed(ActionEvent a){
+    public void actionPerformed(ActionEvent a) {
         //MANAGER
-        if (a.getSource()==assto){
+        if (a.getSource() == assto) {
             this.dispose();
             ClDashboard cd = new ClDashboard();
             DataBase db = new DataBase();
             db.rate(name1.getText(), rate1.getText());
             db.rev(name1.getText(), rev1.getText());
             db.status(name1.getText());
-        }
-        else if (a.getSource()==back){
+        } else if (a.getSource() == back) {
             this.dispose();
             ClDashboard cd = new ClDashboard();
 
