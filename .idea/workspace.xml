@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1559443-32db-4b19-a82b-a523ed651489" name="Changes" comment="push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/ProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/ProjectDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/EmpProjectDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/EmpProjectDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673205032682</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="push">
+      <created>1673205552909</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673205552909</updated>
+    </task>
+    <task id="LOCAL-00018" summary="push">
+      <created>1673205843378</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673205843378</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
