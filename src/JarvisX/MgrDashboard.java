@@ -195,6 +195,10 @@ public class MgrDashboard extends JFrame  implements ActionListener {
         if (a.getSource()==del){
 
             this.dispose();
+            DataBase db = new DataBase();
+            String l;
+            l=String.valueOf(emp.getSelectedItem());
+            db.delDBEmp(l);
             box b = new box();
             b.EmpDeleted();
 
