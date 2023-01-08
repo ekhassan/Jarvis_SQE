@@ -65,6 +65,17 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         bgl.setRolloverEnabled(false);
         bgl.setVisible(true);
 
+        DataBase db=new DataBase();
+        db.showproDetails(proname);
+        String a=db.a;
+        String b=db.b;
+        String c=db.c;
+        String d=db.d;
+        String e=db.e;
+        String f=db.f;
+        String g=db.g;
+        String h=db.h;
+
 //DETAILS
         id = new JLabel();
         id.setText("ID");
