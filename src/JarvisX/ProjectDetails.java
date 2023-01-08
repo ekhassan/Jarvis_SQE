@@ -93,7 +93,7 @@ ProjectDetails(){
         id1.setForeground(new Color(0xFFFFFF));
         id1.setPreferredSize(new Dimension(290, 25));
         id1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        id1.setText("");
+        id1.setText(a);
         id1.setEditable(false);
         id1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -110,7 +110,7 @@ ProjectDetails(){
         name1.setForeground(new Color(0xFFFFFF));
         name1.setPreferredSize(new Dimension(290, 25));
         name1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        name1.setText("");
+        name1.setText(b);
         name1.setEditable(false);
         name1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -127,7 +127,7 @@ ProjectDetails(){
         from1.setForeground(new Color(0xFFFFFF));
         from1.setPreferredSize(new Dimension(290, 25));
         from1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        from1.setText("");
+        from1.setText(d);
         from1.setEditable(false);
         from1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -144,7 +144,7 @@ ProjectDetails(){
         status1.setForeground(new Color(0xFFFFFF));
         status1.setPreferredSize(new Dimension(290, 25));
         status1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        status1.setText("");
+        status1.setText(f);
         status1.setEditable(false);
         status1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -161,7 +161,7 @@ ProjectDetails(){
         rate1.setForeground(new Color(0xFFFFFF));
         rate1.setPreferredSize(new Dimension(290, 25));
         rate1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        rate1.setText("");
+        rate1.setText(h);
         rate1.setEditable(false);
         rate1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -178,7 +178,7 @@ ProjectDetails(){
         source1.setForeground(new Color(0xFFFFFF));
         source1.setPreferredSize(new Dimension(290, 25));
         source1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        source1.setText("");
+        source1.setText(c);
         source1.setEditable(false);
         source1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -195,7 +195,7 @@ ProjectDetails(){
         to1.setForeground(new Color(0xFFFFFF));
         to1.setPreferredSize(new Dimension(290, 25));
         to1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        to1.setText("");
+        to1.setText(e);
         to1.setEditable(false);
         to1.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -212,7 +212,7 @@ ProjectDetails(){
         rev1.setForeground(new Color(0xFFFFFF));
         rev1.setPreferredSize(new Dimension(290, 25));
         rev1.setBorder(BorderFactory.createLineBorder(new Color(0x4f64fb)));
-        rev1.setText("");
+        rev1.setText(g);
         rev1.setEditable(false);
         rev1.setHorizontalAlignment(SwingConstants.CENTER);
 
