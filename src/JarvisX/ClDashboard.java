@@ -12,6 +12,8 @@ public class ClDashboard extends JFrame implements ActionListener {
     JLabel h1;
     JButton bgl1;
     JComboBox pro;
+
+    DataBase db = new DataBase();
     JButton det;
     JButton logout;
     JLabel h2;
@@ -51,7 +53,7 @@ public class ClDashboard extends JFrame implements ActionListener {
         h1.setForeground(new Color(0xffffff));
 
 
-        pro = new JComboBox();
+        pro = new JComboBox(db.dbclpros);
         pro.addActionListener(this);
         pro.setBounds(210, 250, 200, 40);
         pro.setBackground(new Color(0xc2f2fc));
