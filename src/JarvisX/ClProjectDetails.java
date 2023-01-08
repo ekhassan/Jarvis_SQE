@@ -228,6 +228,7 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
             rev1.setText(g);
             rev1.setEditable(false);
         }
+
         rev1.setHorizontalAlignment(SwingConstants.CENTER);
 
         assto = new JButton();
@@ -238,6 +239,7 @@ public class ClProjectDetails  extends JFrame implements ActionListener {
         else{
             assto.setText("Exit");
         }
+
 
         assto.setFont(new Font("Sans Serif", Font.BOLD, 15));
         assto.setBackground(new Color(0x4F64FB));
