@@ -276,6 +276,55 @@ public class DataBase {
             e.printStackTrace();
         }
     }
+    public void addDBPro(String a, String b, String c, String d, String e) {
+        try {
+            connection =DriverManager.getConnection(databaseURL);
+
+            String sql;
+            sql = "INSERT INTO Project (proid, proname, prosource, profrom, proto, prostatus, prorev, prorate) VALUES (?,?,?,?,?,?,?,?)";
+
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, a);
+            statement.setString(2, b);
+            statement.setString(3, c);
+            statement.setString(4, d);
+            statement.setString(5, e);
+            statement.setString(6, "Incomplete");
+            statement.setString(7, "Pending");
+            statement.setString(8, "Pending");
+
+            statement.executeUpdate();
+            statement.close();
+            connection.close();
+
+        } catch (SQLException n) {
+            n.printStackTrace();
+        }
+    }
+
+    public void addDBEmp(String u, String p, String n) {
+        try {
+            connection =DriverManager.getConnection(databaseURL);
+
+            String sql;
+            sql = "INSERT INTO Employee (username, password, name) VALUES (?,?,?)";
+
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, u);
+            statement.setString(2, p);
+
+            statement.setString(3, n);
+
+
+            statement.executeUpdate();
+            statement.close();
+            connection.close();
+
+        } catch (SQLException r) {
+            r.printStackTrace();
+        }
+    }
+
 
 
 }
