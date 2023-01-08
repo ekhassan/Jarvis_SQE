@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1559443-32db-4b19-a82b-a523ed651489" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JarvisX/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNCl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNEmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/AddNPro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JarvisX/box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JarvisX/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JarvisX/LoginPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +66,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Jarvis_SQE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Jarvis_SQE" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
