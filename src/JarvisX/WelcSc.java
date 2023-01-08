@@ -118,6 +118,7 @@ WelcSc(){
             this.dispose();
             LoginPanel lp = new LoginPanel(2.0f);
 
+
         }
         else if(a.getSource()==x){
             System.exit(0);
