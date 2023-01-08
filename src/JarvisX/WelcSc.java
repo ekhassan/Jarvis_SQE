@@ -112,6 +112,7 @@ WelcSc(){
             this.dispose();
             LoginPanel lp = new LoginPanel("s");
 
+
         }
         //CLIENT
         else if(a.getSource()==b3){
